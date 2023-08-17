@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Form</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <main>
+        <fieldset>
+            <legend>Form</legend>
+            <form action="">
+                <div class="inputBox">
+                    <label for="x">User :</label>
+                    <input type="text" id="x" name="fullname" placeholder="Type your full name ...">
+                </div>
+                <div class="inputBox">
+                    <label for="y">Email :</label>
+                    <input type="email" id="y" name="email" placeholder="Type your email ...">
+                </div>
+                <div class="inputBox">
+                    <label for="z">Phone number :</label>
+                    <input type="tel" id="z" name="phone" placeholder="Type your phone number ...">
+                </div>
+                <div class="inputGender">
+                    <p class="nameBox">Gender :</p>
+                    <div class="boxSelection">
+                        <div class="itemSelection">
+                            <label for="m">Man</label>
+                            <input type="radio" value="man" id="m" name="gender">
+                        </div>
+                        <div class="itemSelection">
+                            <label for="m">Woman</label>
+                            <input type="radio" value="woman" id="w" name="gender">
+                        </div>
+                        <div class="itemSelection">
+                            <label for="m">Other</label>
+                            <input type="radio" value="other" id="o" name="gender">
+                        </div>
+                    </div>
+                </div>
+                <p class="nameBox">Adress :</p>
+                <div class="inputBox">
+                    <label for="">
+                        <input type="text" name="city" placeholder="City ...">
+                    </label>
+                </div>
+                <div class="inputBox">
+                    <label for="">
+                        <input type="text" name="provincy" placeholder="Provincy ...">
+                    </label>
+                </div>
+                <div class="inputBox">
+                    <label for="">
+                        <input type="text" name="country" placeholder="Country ...">
+                    </label>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>
