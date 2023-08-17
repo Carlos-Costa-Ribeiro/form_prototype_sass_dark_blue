@@ -40,61 +40,61 @@ fieldset {
         border-radius: 5px;
         border: 2px solid rgb(0, 80, 130);
     }
-}
 
-form {
-    height: inherit;
-    width: inherit;
-    font-size: 17px;
+    form {
+        height: inherit;
+        width: inherit;
+        font-size: 17px;
 
-    .inputBox {
-        margin-bottom: 20px;
-    }
+        .inputBox {
+            margin-bottom: 20px;
+        }
 
-    .inputBox label {
-        display: block;
-    }
+        .inputBox label {
+            display: block;
+        }
 
-    .inputBox input {
-        height: 30px;
-        width: 275px;
-        padding: 5px;
-        background-color: black;
-        border: 1px solid black;
-    }
+        .inputBox input {
+            height: 30px;
+            width: 275px;
+            padding: 5px;
+            background-color: black;
+            border: 1px solid black;
+        }
 
-    .inputGender {
-        border: 2px solid rgb(0, 80, 130);
-        width: 275px;
-        margin: auto;
-        margin-bottom: 10px;
-        padding: 10px;
-    }
+        .inputGender {
+            border: 2px solid rgb(0, 80, 130);
+            width: 275px;
+            margin: auto;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
 
-    .nameBox {
-        display: block;
-        margin-bottom: 10px;
-    }
+        .nameBox {
+            display: block;
+            margin-bottom: 10px;
+        }
 
-    .boxSelection {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-    }
+        .boxSelection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+        }
 
-    .boxSelection .itemSelection {
-        margin-right: 10px;
-    }
+        .boxSelection .itemSelection {
+            margin-right: 10px;
+        }
 
-    input[type="submit"] {
-        margin-top: 30px;
-        height: 50px;
-        width: 275px;
-        background-image: linear-gradient(to right, rgb(90, 0, 200), rgb(0, 150, 255));
-        border: 2px solid rgb(0, 80, 130);
-        font-size: 20px;
-        text-transform: uppercase;
-        color: rgba(230, 230, 230, 0.9);
+        input[type="submit"] {
+            margin-top: 30px;
+            height: 50px;
+            width: 275px;
+            background-image: linear-gradient(to right, rgb(90, 0, 200), rgb(0, 150, 255));
+            border: 2px solid rgb(0, 80, 130);
+            font-size: 20px;
+            text-transform: uppercase;
+            color: rgba(230, 230, 230, 0.9);
+        }
     }
 }
